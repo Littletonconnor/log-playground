@@ -13,11 +13,6 @@ This playground includes sample logs from NGINX and Rails, allowing you to pract
 - **examples.sh**: A shell script with examples demonstrating how to use common command-line tools to analyze the logs.
 - **README.md**: Documentation explaining the playground and how to use it.
 
-## Getting Started
-
-1. Clone the repository or create the folder structure and copy the files.
-2. Run the `examples.sh` script or use it as a reference to try out commands on your own.
-
 ## Commands Overview
 
 ### Useful `grep` Commands
