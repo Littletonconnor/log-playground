@@ -1,0 +1,115 @@
+Started GET "/users/1" for 127.0.0.1 at 2024-11-14 10:15:20 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 45ms (Views: 20ms | ActiveRecord: 15ms)
+
+Started POST "/login" for 192.168.1.10 at 2024-11-14 11:35:42 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"username"=>"test_user"}
+Completed 302 Found in 90ms (Views: 25ms | ActiveRecord: 30ms)
+
+Started GET "/dashboard" for 203.0.113.12 at 2024-11-14 12:22:11 +0000
+Processing by DashboardController#index as HTML
+  Parameters: {}
+Completed 200 OK in 120ms (Views: 80ms | ActiveRecord: 10ms)
+
+Started PATCH "/products/123" for 10.0.0.15 at 2024-11-14 13:01:33 +0000
+Processing by ProductsController#update as JSON
+  Parameters: {"product_id"=>"123"}
+Completed 404 Not Found in 250ms (Views: 100ms | ActiveRecord: 50ms)
+
+Started DELETE "/orders" for 172.16.254.1 at 2024-11-14 14:17:05 +0000
+Processing by OrdersController#destroy as */*
+  Parameters: {"order_id"=>"456"}
+Completed 500 Internal Server Error in 310ms (Views: 150ms | ActiveRecord: 80ms)
+
+Started GET "/assets/app.js" for 127.0.0.1 at 2024-11-14 15:25:47 +0000
+Processing by AssetsController#show as */*
+  Parameters: {}
+Completed 304 Not Modified in 15ms (Views: 0ms | ActiveRecord: 0ms)
+
+Started POST "/login" for 203.0.113.12 at 2024-11-14 16:30:20 +0000
+Processing by SessionsController#create as JSON
+  Parameters: {"username"=>"sample_user"}
+Completed 302 Found in 110ms (Views: 40ms | ActiveRecord: 30ms)
+
+Started GET "/users/1" for 192.168.1.10 at 2024-11-14 17:12:38 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 80ms (Views: 50ms | ActiveRecord: 15ms)
+
+Started PATCH "/products/123" for 10.0.0.15 at 2024-11-14 18:07:19 +0000
+Processing by ProductsController#update as HTML
+  Parameters: {"product_id"=>"123"}
+Completed 404 Not Found in 190ms (Views: 70ms | ActiveRecord: 50ms)
+
+Started DELETE "/orders" for 127.0.0.1 at 2024-11-14 19:55:41 +0000
+Processing by OrdersController#destroy as JSON
+  Parameters: {"order_id"=>"789"}
+Completed 500 Internal Server Error in 340ms (Views: 130ms | ActiveRecord: 90ms)
+
+Started GET "/dashboard" for 192.168.1.10 at 2024-11-14 20:40:50 +0000
+Processing by DashboardController#index as */*
+  Parameters: {}
+Completed 200 OK in 105ms (Views: 45ms | ActiveRecord: 20ms)
+
+Started GET "/users/1" for 203.0.113.12 at 2024-11-14 21:18:27 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 52ms (Views: 30ms | ActiveRecord: 15ms)
+
+Started POST "/login" for 127.0.0.1 at 2024-11-14 22:31:02 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"username"=>"example_user"}
+Completed 302 Found in 95ms (Views: 35ms | ActiveRecord: 20ms)
+
+Started GET "/assets/app.js" for 10.0.0.15 at 2024-11-14 23:47:14 +0000
+Processing by AssetsController#show as */*
+  Parameters: {}
+Completed 304 Not Modified in 22ms (Views: 0ms | ActiveRecord: 0ms)
+
+Started GET "/dashboard" for 172.16.254.1 at 2024-11-14 23:55:43 +0000
+Processing by DashboardController#index as JSON
+  Parameters: {}
+Completed 200 OK in 60ms (Views: 40ms | ActiveRecord: 10ms)
+
+Started POST "/login" for 192.168.1.10 at 2024-11-15 00:13:27 +0000
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"user123"}
+Completed 302 Found in 75ms (Views: 28ms | ActiveRecord: 20ms)
+
+Started GET "/users/1" for 127.0.0.1 at 2024-11-15 01:02:14 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 58ms (Views: 38ms | ActiveRecord: 12ms)
+
+Started DELETE "/orders" for 203.0.113.12 at 2024-11-15 02:15:50 +0000
+Processing by OrdersController#destroy as HTML
+  Parameters: {"order_id"=>"654"}
+Completed 500 Internal Server Error in 400ms (Views: 200ms | ActiveRecord: 110ms)
+
+Started PATCH "/products/123" for 172.16.254.1 at 2024-11-15 03:28:31 +0000
+Processing by ProductsController#update as */*
+  Parameters: {"product_id"=>"123"}
+Completed 404 Not Found in 140ms (Views: 45ms | ActiveRecord: 35ms)
+
+Started GET "/dashboard" for 10.0.0.15 at 2024-11-15 04:45:02 +0000
+Processing by DashboardController#index as JSON
+  Parameters: {}
+Completed 200 OK in 85ms (Views: 30ms | ActiveRecord: 18ms)
+
+Started POST "/login" for 192.168.1.10 at 2024-11-15 05:59:45 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"username"=>"admin_user"}
+Completed 302 Found in 100ms (Views: 55ms | ActiveRecord: 22ms)
+
+Started GET "/users/1" for 127.0.0.1 at 2024-11-15 06:23:10 +0000
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 78ms (Views: 40ms | ActiveRecord: 15ms)
+
+Started DELETE "/orders" for 203.0.113.12 at 2024-11-15 07:15:31 +0000
+Processing by OrdersController#destroy as JSON
+  Parameters: {"order_id"=>"987"}
+Completed 500 Internal Server Error in 330ms (Views: 100ms | ActiveRecord: 50ms)
+
